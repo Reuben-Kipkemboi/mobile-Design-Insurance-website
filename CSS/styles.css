@@ -1,8 +1,104 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 @media only screen and (min-width: 240px) and (max-width: 480px) {
-    /* For mobile phones */
+  /* For mobile phones */
+  nav {
+    background-color: lightgray;
+    
+  }
+  .slogan {
+    height: 100vh;
+    background-image: url("/images/header.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 2.8%;
+  }
+  .motto {
+      color: white;
+      font-size: 4vh;
+      text-align: center;
+      font-weight: bolder;
+  }
+.slogan > .small {
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
+  }
+  #login-link,
+  #member {
+    display: none;
+  }
+  #brand-name {
+    float: left;
+    color: #252B42;
+    font-size: 2.5vh;
+    font-weight: bolder;
+  }
+  #links-div {
+    display: block;
+    text-align: center;
+  }
+  #links-div > ul {
+    list-style: none;
+    display: block;
+  }
+  ul > li > a {
+    text-decoration: none;
+    color: #252B42;
+    padding: 40px;
+    font-size: 2.5vh;
+    font-weight: bold;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #quote{
+    color: white;
+    font-weight: 700;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    margin-bottom: 3%;
+    width: 50%;
+  }
+  #more{
+    background-color: lightgray;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 5px;
+    width: 50%;
+  }
+  .cards {
+    display: block;
+  }
+  .cards > .one {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    height: 30%;
+  }
+  .cards > .two {
+    width: 80%;
+    margin: 0 10% 0 10%;
+  }
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2 > .menu {
+    margin: 0 10% 0 10%;
+  } */
 }
