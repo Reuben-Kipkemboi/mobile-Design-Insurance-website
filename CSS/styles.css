@@ -168,17 +168,17 @@ body {
     flex-wrap: wrap;
     font-size: 2vh;
     margin-top: 20px;
-    justify-content: space-evenly;
     align-items: center;
 }
 .persons{
-    width: 50%;
+    width: 40%;
     text-align: center;
     background: white;
+    margin-bottom: 20px;
 }
 .persons>img{
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
     padding-top: 10px;
     
 }
@@ -187,4 +187,15 @@ body {
 }
 .users>.persons>.coloured{
     color: gold;
+}
+.logos>.brands{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+.brands>img{
+    width: 6%;
 }
