@@ -439,7 +439,6 @@ footer>.location{
     line-height: 1.6;
 }
 .copyright{
-    background-color: lightgray;
     font-size: 2vh;
     font-weight: bold;
     width: 100%;
@@ -449,8 +448,8 @@ footer>.location{
 }
 .copyright>.reuben{
     width: 90%;
-    margin-left: 10%;
     line-height: 1.6;
+    margin-left: 10%;
 }
 .fb{
     color: #23A6F0;
