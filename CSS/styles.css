@@ -384,6 +384,57 @@ span>.subscribe{
     border: none;
     border-radius: 5px;
     margin: 5% 10% 0 10%;
+}
+footer{
+    width: 90%;
+    color: #252B42;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+footer>.info{
+    width: 100%;
+    color: #252B42;
+    margin-left: 10%;
+    margin-right: 10%;
+}   
+.info h4{
+    font-size: 3.0vh;
+    font-weight: bold;
+}
+.location>h4{
+    font-size: 3.0vh;
+    font-weight: bolder;
+}
+.info>ul>li{
+    margin-left: -33%;
+}
+footer>.info>ul>li{
+    list-style: none;
     
-
+}
+.info>ul>li>a{
+    text-decoration: none;
+    color: #252B42;
+    list-style: none;
+    font-size: 2.0vh;
+}
+footer>.location{
+    width: 100%;
+    color: #252B42;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.location>ul>li{
+    text-decoration: none;
+    color: #252B42;
+    list-style: none;
+    margin-left: -33%;
+}
+.location>ul>li>a{
+    font-size: 2.0vh;
+    line-height: 1.6;
 }
