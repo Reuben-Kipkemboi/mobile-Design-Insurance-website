@@ -438,3 +438,24 @@ footer>.location{
     font-size: 2.0vh;
     line-height: 1.6;
 }
+.copyright{
+    background-color: lightgray;
+    font-size: 2vh;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.copyright>.reuben{
+    width: 90%;
+    margin-left: 10%;
+    line-height: 1.6;
+}
+.fb{
+    color: #23A6F0;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
