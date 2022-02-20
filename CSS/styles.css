@@ -311,4 +311,33 @@ span>.subscribe{
     text-align: center;
     border: none;
     border-radius: 4px;
+    margin-bottom: 4%;
+}
+.branches{
+    background: #252B42;  
+    flex-wrap: wrap;
+    height: 70vh;
+    align-items: center;
+}
+.branches>.world{
+    color: white;
+    font-size: 4vh;
+    font-weight: bolder;
+    margin-top: 4%;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+.branches>#world-branches{
+    font-size: 1.5vh;
+    color: white;
+    margin: 10%;
+    margin-top: -5%;
+
+}
+.branches>img{
+    width: 70%;
+    margin: 10%;
+    margin-top: -5%;
+    margin-top: 15%;
+
 }
