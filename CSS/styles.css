@@ -339,5 +339,25 @@ span>.subscribe{
     margin: 10%;
     margin-top: -5%;
     margin-top: 15%;
-
+}
+.grey{
+    background-color: white;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.form>img{
+    width: 100%;
+    height: 10%;
+}
+.form>form{
+    background-color: white;
+    width: 90%;
+    margin: 10%;
+}
+.form>form>h3{
+    font-size: 4vh;
+    font-weight: bolder;
+    color: #252B42;
 }
