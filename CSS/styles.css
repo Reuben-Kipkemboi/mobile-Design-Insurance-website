@@ -361,3 +361,29 @@ span>.subscribe{
     font-weight: bolder;
     color: #252B42;
 }
+.consultation{
+    background-color: lightgrey;
+}
+.consultation>h3{
+    color: #252B42;
+    font-size: 3.5vh;
+    font-weight: bold;
+    margin: 10%;
+}
+.consultation>.span{
+    font-size:2vh;
+    color: #252B42;
+    margin: 10%;
+    margin-top: -7%;
+}
+.consultation>.contact{
+    padding: 10px 30px;
+    background-color: #23A6F0;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    margin: 5% 10% 0 10%;
+    
+
+}
